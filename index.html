@@ -12,10 +12,18 @@
       <h1>¡Felicidades!</h1>
       <p class="congratulations-text">Has logrado escapar de la sala de escape con éxito.</p>
       <p>Tu conocimiento de redes ha sido más que suficiente para resolver todos los desafíos. ¡Eres un verdadero experto!</p>
-      <p>El enmascarado se saca la mascara, ves que era Mauri que estaba probando tu conocimiento.</p>
-      <button class="button" onclick="celebrate()">¡Celebrar!</button>
+      <button class="button" onclick="openModal()">¡Celebrar!</button>
     </div>
   </div>
+
+  <div id="celebrationModal" class="modal">
+    <div class="modal-content">
+      <h2>¡JAJA!</h2>
+      <p>El enmascarado se saca la mascara, ves que era Mauri que estaba probando tu conocimiento.</p>
+      <img src="https://recursos.ort.edu.ar/static/archivos/usuarioperfil/104388" alt="Celebración" class="celebration-image">
+    </div>
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 
